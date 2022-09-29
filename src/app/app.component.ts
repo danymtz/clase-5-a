@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'clase5-a';
+
+  public flag: boolean = true;
+
+  onHide(): void {
+    this.flag = !this.flag;
+  }
+
 }
